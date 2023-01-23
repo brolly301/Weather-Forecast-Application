@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">Weather Forecast</h1>
+    <form>
+        <input type="text" placeholder="Enter a location..">
+        <button><img id="search" src="Images/search.png"></button>
+    </form>
+    <div id="weatherDiv">
+
+        <div id="leftDiv">
+            <h1 id="cityName"></h1>
+            <h2 id="currentTemperature"></h2>
+            <h2 id="dateTime"></h2>
+            <div id="highLowDiv">
+                <h2 id="highTemp"></h2>
+                <span id="highLowSpan">|</span>
+                <h2 id="lowTemp"></h2>
+            </div>
+        </div>
+        <div id="weatherImageDiv">
+            <img id="weatherImage" src="">
+            <h2 id="weatherDescription"></h2>
+            <h2 id="wind"></h2>
+        </div>
+        <div id="otherDays">
+            <div id="specificDay">
+                <h1 id="day1">22/01</h1>
+                <img id="otherDayImage1" src="">
+                <h2 id="day1HighTemp">10<sup>o</sup>C</h2>
+                <h2 id="day1LowTemp">3<sup>o</sup>C</h2>
+            </div>
+            <div id="specificDay">
+                <h1 id="day2">23/01</h1>
+                <img id="otherDayImage2" src="">
+                <h2 id="day2HighTemp">10<sup>o</sup>C</h2>
+                <h2 id="day2LowTemp">3<sup>o</sup>C</h2>
+            </div>
+            <div id="specificDay">
+                <h1 id="day3">24/01</h1>
+                <img id="otherDayImage3" src="">
+                <h2 id="day3HighTemp">10<sup>o</sup>C</h2>
+                <h2 id="day3LowTemp">3<sup>o</sup>C</h2>
+            </div>
+            <div id="specificDay">
+                <h1 id="day4">25/01</h1>
+                <img id="otherDayImage4" src="">
+                <h2 id="day4HighTemp">19<sup>o</sup>C</h2>
+                <h2 id="day4LowTemp">3<sup>o</sup>C</h2>
+            </div>
+            <div id="specificDay">
+                <h1 id="day5">26/01</h1>
+                <img id="otherDayImage5" src="">
+                <h2 id="day5HighTemp">10<sup>o</sup>C</h2>
+                <h2 id="day5LowTemp">3<sup>o</sup>C</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <body>
+    <div id="otherDays">
+        <div id="specificDay">
+            <h1 id="dayText">22/01</h1>
+            <img id="cloud" src="cloud.png">
+            <h2 id="highOtherDays">10<sup>o</sup>C</h2>
+            <h2 id="lowOtherDays">3<sup>o</sup>C</h2>
+        </div>
+        <div id="specificDay">
+            <h1 id="dayText">23/01</h1>
+            <img id="cloud" src="cloud.png">
+            <h2 id="highOtherDays">10<sup>o</sup>C</h2>
+            <h2 id="lowOtherDays">3<sup>o</sup>C</h2>
+        </div>
+        <div id="specificDay">
+            <h1 id="dayText">24/01</h1>
+            <img id="cloud" src="cloud.png">
+            <h2 id="highOtherDays">10<sup>o</sup>C</h2>
+            <h2 id="lowOtherDays">3<sup>o</sup>C</h2>
+        </div>
+        <div id="specificDay">
+            <h1 id="dayText">25/01</h1>
+            <img id="cloud" src="cloud.png">
+            <h2 id="highOtherDays">19<sup>o</sup>C</h2>
+            <h2 id="lowOtherDays">3<sup>o</sup>C</h2>
+        </div>
+        <div id="specificDay">
+            <h1 id="dayText">26/01</h1>
+            <img id="cloud" src="cloud.png">
+            <h2 id="highOtherDays">10<sup>o</sup>C</h2>
+            <h2 id="lowOtherDays">3<sup>o</sup>C</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body> -->

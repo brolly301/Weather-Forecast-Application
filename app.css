@@ -1,0 +1,402 @@
+body {
+  font-family: "Montserrat";
+  background-color: #ffffffc5;
+}
+
+input {
+  position: relative;
+  top: -10px;
+  width: 430px;
+  height: 40px;
+  border: 0 solid black;
+  border-bottom: 1px solid rgb(173, 173, 173, 0.8);
+  background-color: #fbf9f9fc;
+  font-size: 20px;
+}
+
+button {
+  position: relative;
+  top: 5px;
+  right: -5px;
+  width: 30px;
+  height: 30px;
+  background-color: #fbf9f9fc;
+  border: 0;
+}
+
+#search {
+  width: 40px;
+  height: 40px;
+}
+
+#title {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 500;
+}
+
+form {
+  position: relative;
+  text-align: center;
+}
+
+#weatherDiv {
+  border: 1px solid black;
+  bottom: -10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #70deffb0;
+  margin: 0 auto;
+  width: 750px;
+  height: 520px;
+  display: none;
+}
+
+#cityName {
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  top: 20px;
+  left: 0px;
+  font-weight: 400;
+}
+
+#currentTemperature {
+  position: relative;
+  font-size: 75px;
+  text-align: left;
+  top: -30px;
+  left: 130px;
+  font-weight: 300;
+}
+
+#degree {
+  position: relative;
+  font-size: 75px;
+  text-align: left;
+  top: -154px;
+  left: 95px;
+  font-weight: 300;
+}
+
+#leftDiv {
+  position: relative;
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+  bottom: 0px;
+  left: -180px;
+  text-align: center;
+}
+
+#dateTime {
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  top: -70px;
+  font-weight: 400;
+}
+
+#weatherDescription {
+  position: relative;
+  font-size: 29px;
+  font-weight: 500;
+  top: -15px;
+  text-transform: capitalize;
+}
+
+#wind {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  top: -27px;
+}
+
+#weatherImage {
+  position: relative;
+  width: 210px;
+  height: 210px;
+}
+
+#weatherImageDiv {
+  position: relative;
+  text-align: center;
+  height: 370px;
+  width: 300px;
+
+  bottom: 515px;
+  right: -404px;
+  display: none;
+}
+
+#highTemp {
+  position: relative;
+  text-align: center;
+  right: 7px;
+  top: 5px;
+}
+
+#lowTemp {
+  position: relative;
+  text-align: center;
+  left: 7px;
+  top: 5px;
+}
+
+#highLowSpan {
+  position: relative;
+  bottom: -10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#highLowDiv {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  position: relative;
+  top: -90px;
+  left: 150px;
+}
+
+#specificDay {
+  border: 1px solid rgb(114, 108, 108, 0.5);
+  bottom: -10px;
+  bottom: 0px;
+  position: relative;
+  margin: 0 auto;
+  height: 163px;
+  width: 150px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#otherDayImage1 {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  top: -22px;
+  padding: 7px;
+}
+
+#otherDayImage5 {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  top: -22px;
+  padding: 7px;
+}
+
+#otherDayImage2 {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  top: -22px;
+  padding: 7px;
+}
+
+#otherDayImage3 {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  top: -22px;
+  padding: 7px;
+}
+
+#otherDayImage4 {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  top: -22px;
+  padding: 7px;
+}
+
+#day1 {
+  font-size: 22px;
+}
+
+#day2 {
+  font-size: 22px;
+}
+
+#day3 {
+  font-size: 22px;
+}
+
+#day4 {
+  font-size: 22px;
+}
+
+#day5 {
+  font-size: 22px;
+}
+
+#highOtherDays {
+  position: relative;
+  top: -45px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#lowOtherDays {
+  position: relative;
+  top: -61px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#otherDays {
+  border: 1px solid rgb(114, 108, 108, 0.5);
+  bottom: 551px;
+  right: 1px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 163px;
+  width: 750px;
+  display: none;
+  flex-direction: row;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#day1HighTemp {
+  position: relative;
+  top: -45px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#day1LowTemp {
+  position: relative;
+  top: -61px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#day2HighTemp {
+  position: relative;
+  top: -45px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#day2LowTemp {
+  position: relative;
+  top: -61px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#day3HighTemp {
+  position: relative;
+  top: -45px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#day3LowTemp {
+  position: relative;
+  top: -61px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#day4HighTemp {
+  position: relative;
+  top: -45px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#day4LowTemp {
+  position: relative;
+  top: -61px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#day5HighTemp {
+  position: relative;
+  top: -45px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#day5LowTemp {
+  position: relative;
+  top: -61px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Proper CSS Fully Done */
+/* 
+
+
+
+
+#tempNameDate {
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+#specificDay {
+    border: 1px solid rgb(114, 108, 108, 0.5);
+    bottom: -10px;
+    bottom: 0px;
+    position: relative;
+    margin: 0 auto;
+    height: 163px;
+    width: 150px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#cloud {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    top: -22px;
+}
+
+#dayText {
+    font-size: 22px;
+}
+
+#highOtherDays {
+    position: relative;
+    top: -45px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#lowOtherDays {
+    position: relative;
+    top: -61px;
+    font-size: 16px;
+    font-weight: 500;
+} */
